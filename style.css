@@ -1,0 +1,38 @@
+*
+{
+  box-sizing: content-box;
+}
+body
+{
+  padding: 0;
+  margin: 0;
+
+}
+.container
+{
+  background-color: blue;
+  margin: 14vh 6vw;
+  padding: 4vh 6vw;
+  max-width: 1440px;
+  min-width: 375px;
+  overflow: auto;
+  height: 60vh;
+
+}
+#buttonContainer
+{
+  bottom: 3vh;
+  left: 3vw;
+  position: relative;
+}
+#imageContainer
+{
+
+  width: 40%;
+  float: right;
+}
+#description
+{
+  width: 60%;
+  float: right;
+}
