@@ -8,22 +8,22 @@
   </script>
   <title>testimonialsSlider</title>
   </head>
-  <body>
+  <body onload="intialize()">
       <div class="container" style="overflow:auto"  >
         <div id="imageContainer"  >
           <img src="D:\FirstProject\testimonialsSlider\images\image-tanya.jpg"  id="image" >
           <div id="buttonContainer">
-          <button id="preButton" >
+          <button id="preButton" onclick="changeProfile(this.id)" >
             <img src="D:\FirstProject\testimonialsSlider\images\icon-prev.svg"/>
           </button>
-          <button id="nextButton"    >
+          <button id="nextButton"  onclick="changeProfile(this.id)"  >
             <img src="D:\FirstProject\testimonialsSlider\images\icon-next.svg"/>
           </button>
         </div>
         </img>
         </div>
         <div id="description" >
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+          <p id="prief">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
              sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
              <div id="about">
                <p id="name">tanya</p>
